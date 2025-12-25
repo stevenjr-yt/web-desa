@@ -45,7 +45,7 @@ Berikut adalah tampilan antarmuka (UI) dari Sistem DESAKU.
 
 | **Dashboard Eksekutif** | **Manajemen Pengguna** |
 |:---:|:---:|
-| ![Dashboard](assets/beranda.png) | ![Dashboard](assets/beranda2.png) |
+| ![Dashboard](assets/beranda.jpg) | ![Dashboard](assets/beranda2.png) |
 | *Monitoring data penduduk & keuangan real-time.* | *Pengelolaan hak akses staff & akun warga.* |
 
 | **E-Administrasi Surat** | **Layanan Posyandu** |
