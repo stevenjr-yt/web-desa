@@ -1,0 +1,20 @@
+Options -MultiViews
+RewriteEngine On
+
+# 1. Matikan Directory Listing (Biar orang gak bisa intip isi folder)
+Options -Indexes
+
+# 2. Force HTTPS (Opsional, kalau hosting support SSL, aktifkan baris bawah ini)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 3. Hilangkan Ekstensi .php di URL
+# Jika file tidak ada folder (-d)
+RewriteCond %{REQUEST_FILENAME} !-d
+# Tapi ada file dengan akhiran .php (-f)
+RewriteCond %{REQUEST_FILENAME}.php -f
+# Maka panggil filenya tanpa menampilkan .php di browser
+RewriteRule ^([a-z0-9-_]+)/?$ $1.php [NC,L]
+
+# 4. Error Handling (Kalau halaman gak ketemu, balik ke index atau error page)
+ErrorDocument 404 /index.php
