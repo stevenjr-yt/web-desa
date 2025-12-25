@@ -43,12 +43,17 @@ Dibangun dengan **Native PHP** yang ringan dan desain antarmuka **Clean UI** men
 
 Berikut adalah tampilan antarmuka (UI) dari Sistem DESAKU.
 
-| **Dashboard Eksekutif** | **Manajemen Pengguna** |
+| **Dashboard Preview Warga** | **APBDesa Preview** |
 |:---:|:---:|
-| ![Dashboard](assets/beranda.jpg) | ![Dashboard](assets/beranda2.png) |
-| *Monitoring data penduduk & keuangan real-time.* | *Pengelolaan hak akses staff & akun warga.* |
+| ![Halaman Beranda](assets/beranda.jpg) | ![Monitoring APBDesa](assets/beranda2.png) |
+| *Monitoring data penduduk secara real-time.* | *Preview Transparansi Keuangan Desa* |
 
 | **E-Administrasi Surat** | **Layanan Posyandu** |
+|:---:|:---:|
+| ![E-Surat](assets/beranda3.png) | ![Posyandu](assets/posyandu.png) |
+| *Approval berjenjang (Warga -> Sekdes -> Kades).* | *Manajemen jadwal & pendaftaran kesehatan.* |
+
+| **Dashboard Developer** | **Dashboard Kades** |
 |:---:|:---:|
 | ![Dashboard](assets/beranda3.png) | ![Dashboard](assets/beranda4.png) |
 | *Approval berjenjang (Warga -> Sekdes -> Kades).* | *Manajemen jadwal & pendaftaran kesehatan.* |
