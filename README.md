@@ -94,7 +94,7 @@ Ikuti langkah berikut untuk menjalankan project di komputer lokal (Localhost):
 
 | **Konsep ERD SQL DESAKU** | 
 |:---:|:---:|
-| ![Dashboard](assets/erd.png) |
+| ![Dashboard](assets/erd.jpeg) |
 | *Terdiri dari 10 Table yg saling terhububg* |
 
 
