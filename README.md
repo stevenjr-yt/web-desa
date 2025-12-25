@@ -18,15 +18,14 @@ Dibangun dengan **Native PHP** yang ringan dan desain antarmuka **Clean UI** men
 ### ✨ Fitur Utama
 
 * **🔐 Multi-Role Access Control:**
-    * **Developer/Admin:** Kontrol penuh sistem & server.
-    * **Kepala Desa:** Dashboard monitoring visual (Grafik & Statistik) & Approval Tanda Tangan Digital.
-    * **Sekretaris:** Manajemen surat masuk, data penduduk, inventaris, dan jadwal kegiatan.
-    * **Bendahara:** Manajemen APB Desa (CRUD & Log Transaksi).
-    * **Warga:** Layanan mandiri (Request Surat, Daftar Posyandu) & Cek Jadwal Ronda.
-* **📊 Visualisasi Data:** Grafik interaktif untuk Demografi Penduduk & Realisasi Anggaran (Chart.js).
-* **📝 E-Administrasi:** Alur pengajuan surat otomatis (Warga -> Verifikasi Sekdes -> TTD Kades).
-* **🏥 Layanan Kesehatan:** Pendaftaran online Posyandu Balita/Lansia.
-* **📢 Portal Informasi:** Berita desa, Transparansi APB, dan Jadwal Siskamling.
+    * **Kepala Desa:** Dashboard Eksklusif dengan Grafik Visual (Chart.js) & Tanda Tangan Digital.
+    * **Sekretaris:** Manajemen Penduduk, Berita, Inventaris, Jadwal Ronda & Verifikasi Surat.
+    * **Bendahara:** Pencatatan Keuangan APB Desa (Pemasukan/Pengeluaran) & Laporan.
+    * **Warga:** Layanan Mandiri (Request Surat Online & Pendaftaran Posyandu).
+* **📊 Data Visualization:** Penyajian data demografi dan keuangan dalam bentuk grafik interaktif.
+* **⚡ Auto-Account:** Input data penduduk otomatis men-generate akun akses layanan warga (User/Pass: NIK).
+* **🏥 E-Posyandu & Ronda:** Manajemen jadwal kegiatan desa secara digital.
+* **🛡️ Secure Logic:** Proteksi akses halaman berdasarkan level user (Session & Role Check) dan Password Hashing (Bcrypt).
 
 ---
 
@@ -37,6 +36,22 @@ Dibangun dengan **Native PHP** yang ringan dan desain antarmuka **Clean UI** men
 * **Frontend:** HTML5, Tailwind CSS (CDN).
 * **Library:** Chart.js (untuk grafik statistik).
 * **Server:** Apache (XAMPP/Hosting).
+
+---
+
+## 📸 Galeri Aplikasi
+
+Berikut adalah tampilan antarmuka (UI) dari Sistem DESAKU.
+
+| **Dashboard Eksekutif** | **Manajemen Pengguna** |
+|:---:|:---:|
+| ![Dashboard](assets/screenshots/dashboard.png) | ![User Management](assets/screenshots/user.png) |
+| *Monitoring data penduduk & keuangan real-time.* | *Pengelolaan hak akses staff & akun warga.* |
+
+| **E-Administrasi Surat** | **Layanan Posyandu** |
+|:---:|:---:|
+| ![Layanan Surat](assets/screenshots/surat.png) | ![Posyandu](assets/screenshots/posyandu.png) |
+| *Approval berjenjang (Warga -> Sekdes -> Kades).* | *Manajemen jadwal & pendaftaran kesehatan.* |
 
 ---
 
