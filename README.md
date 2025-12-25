@@ -55,8 +55,13 @@ Berikut adalah tampilan antarmuka (UI) dari Sistem DESAKU.
 
 | **Dashboard Developer** | **Dashboard Kades** |
 |:---:|:---:|
-| ![Dashboard](assets/beranda3.png) | ![Dashboard](assets/beranda4.png) |
-| *Approval berjenjang (Warga -> Sekdes -> Kades).* | *Manajemen jadwal & pendaftaran kesehatan.* |
+| ![Dashboard](assets/developer.png) | ![Dashboard](assets/kades.png) |
+| *Quick Action to Cpanel Hosting * | *Monitoring Visualisasi data semua kegiatan desa* |
+
+| **Dashboard Sekretaris** | **Dashboard Bendahara** |
+|:---:|:---:|
+| ![Dashboard](assets/dashboardsekre.png) | ![Dashboard](assets/bendahara.png) |
+| *Input user, input warga, input jadwal ronda, berita* | *Manajemen keuangan secara realtime* |
 
 ---
 
