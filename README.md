@@ -92,6 +92,12 @@ Ikuti langkah berikut untuk menjalankan project di komputer lokal (Localhost):
 
 ### 📜 SQL Schema (`db_desa`)
 
+| **Konsep ERD SQL DESAKU** | 
+|:---:|:---:|
+| ![Dashboard](assets/erd.png) |
+| *Terdiri dari 10 Table yg saling terhububg*
+
+
 Copy kode SQL di bawah ini dan jalankan di phpMyAdmin:
 
 ```sql
